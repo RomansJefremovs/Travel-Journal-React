@@ -1,0 +1,145 @@
+
+
+@media (max-width: 767px) {
+    .card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 40px;
+        padding: 40px;
+        background-color: #dbdbdb;
+        border-radius: 20px;
+
+    }
+    .image{
+        margin: 0;
+        width: 150px;
+        height: 193px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .location{
+        font-size: 10px;
+        line-height: 5px;
+    }
+    .link{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .title{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .date{
+        font-size: 10px;
+        line-height: 5px;
+    }
+
+    .about{
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media (min-width: 768px){
+    .card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 60px;
+        padding: 30px;
+        background-color: #dbdbdb;
+        border-radius: 20px;
+
+    }
+    .image{
+        margin: 0;
+        width: 250px;
+        height: 336px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .location{
+        font-size: 18px;
+        line-height: 12px;
+    }
+    .link{
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .title{
+        font-size: 48px;
+        line-height: 30px;
+    }
+
+    .date{
+        font-size: 18px;
+        line-height: 12px;
+    }
+
+    .about{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.location-img{
+    width: 12px;
+    height: 16px;
+    padding-right: 5px;
+}
+
+.location{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    padding-right: 10px;
+}
+.link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    color: #2B283A;
+}
+
+.date{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    color: #2B283A;
+}
+
+.about{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: #2B283A;
+}
